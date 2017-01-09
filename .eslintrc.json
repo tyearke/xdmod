@@ -1,5 +1,16 @@
 {
   "env": {},
+  "plugins": [
+    "compat"
+  ],
+  "browserslist": [
+    "IE >= 9",
+    "Edge >= 12",
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "Firefox ESR",
+    "last 2 Safari versions"
+  ],
   "globals": {},
   "extends": "eslint:recommended",
   "rules": {
@@ -61,6 +72,7 @@
       2,
       "unix"
     ],
-    "keyword-spacing": 1
+    "keyword-spacing": 1,
+    "compat/compat": 2
   }
 }
