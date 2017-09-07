@@ -16,9 +16,6 @@ Open XDMoD requires the following software:
     - [cURL][php-curl]
     - [DOM][php-dom]
     - [XMLWriter][php-xmlwriter]
-    - [PEAR Log Package][pear-log]
-    - [PEAR MDB2 Package][pear-mdb2]
-    - [PEAR MDB2 MySQL Driver][pear-mdb2-mysql]
 - [Java][] including the [JDK][]
 - [PhantomJS][]
 - [cron][]
@@ -38,9 +35,6 @@ Open XDMoD requires the following software:
 [php-curl]:        http://php.net/manual/en/book.curl.php
 [php-dom]:         http://php.net/manual/en/book.dom.php
 [php-xmlwriter]:   http://php.net/manual/en/book.xmlwriter.php
-[pear-log]:        http://pear.php.net/package/Log
-[pear-mdb2]:       http://pear.php.net/package/MDB2
-[pear-mdb2-mysql]: http://pear.php.net/package/MDB2_Driver_mysql
 [java]:            http://java.com/
 [jdk]:             http://www.oracle.com/technetwork/java/javase/downloads/index.html
 [phantomjs]:       http://phantomjs.org/
@@ -63,8 +57,7 @@ available from these distributions.
 ### Ubuntu 14.04
 
     # apt-get install apache2 php5 php5-cli php5-mysql php5-gd \
-                      php5-mcrypt libgmp-dev php5-gmp php-pear \
-                      php-log php-mdb2 php-mdb2-driver-mysql \
+                      php5-mcrypt libgmp-dev php5-gmp \
                       default-jre-headless openjdk-7-jdk phantomjs \
                       mysql-server mysql-client cron logrotate
 
@@ -85,8 +78,7 @@ And for RHEL 7:
 repositories.
 
     # yum install httpd php php-cli php-mysql php-gd php-mcrypt \
-                  gmp-devel php-gmp php-pdo php-xml php-pear-Log \
-                  php-pear-MDB2 php-pear-MDB2-Driver-mysql \
+                  gmp-devel php-gmp php-pdo php-xml \
                   java-1.7.0-openjdk java-1.7.0-openjdk-devel \
                   mariadb-server mariadb cronie logrotate
 

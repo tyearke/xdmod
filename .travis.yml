@@ -28,7 +28,6 @@ cache:
     directories:
         - $HOME/.npm
         - $HOME/.composer/cache
-        - /tmp/pear/cache
         - $XDMOD_TEST_ARTIFACTS_MIRROR
 
 # Delegate the installation step to the custom Travis installation script

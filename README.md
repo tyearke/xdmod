@@ -212,8 +212,6 @@ may be found [here][repo-format]. Once you have made the desired changes, run
       - `php-gmp`
       - `php-zip`
   - [Composer](https://getcomposer.org/)
-  - [PEAR](https://pear.php.net/)
-  - [PEAR Log Module](https://pear.php.net/package/Log/)
   - [Java Development Kit 7+](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
   - [rpmbuild](http://rpm.org/)
     - This is only required if building RPMs.
