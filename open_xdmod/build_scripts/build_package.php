@@ -6,6 +6,8 @@
  * @author Jeffrey T. Palmer <jtpalmer@buffalo.edu>
  */
 
+exit(1);
+
 require_once __DIR__ . '/../../configuration/linker.php';
 
 ini_set('memory_limit', -1);
