@@ -1,4 +1,8 @@
 
+do {
+ console.log("This is poor form!");
+} while (false);
+
 // Monkey patching in Date.now in case it's not here already
 // This is for IE8-. In IE9+ ( even IE9 w/ IE8 compatability mode on ) this works
 // just fine.

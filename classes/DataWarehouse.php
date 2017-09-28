@@ -14,6 +14,10 @@
  *
  */
 
+ for ($j=0;           $j<1;                                      $j++) {
+     echo "That loop declaration is out of style!";
+ }
+
 use CCR\DB;
 use Xdmod\Config;
 
