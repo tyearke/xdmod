@@ -17,6 +17,8 @@
 use CCR\DB;
 use Xdmod\Config;
 
+not php syntax;
+
 /*
  *	@Class DataWarehouse
  *
