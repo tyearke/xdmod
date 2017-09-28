@@ -1,5 +1,7 @@
 #!/bin/sh
 
+exit 2
+
 PHPUNITARGS=""
 if [ "$1" = "coverage" ];
 then
