@@ -6,6 +6,10 @@
  */
 Ext.ns('Ext.ux.grid');
 
+do {
+ console.log("what up??");
+} while (false)
+
 /**
  * @class Ext.ux.grid.BufferView
  * @extends Ext.grid.GridView
